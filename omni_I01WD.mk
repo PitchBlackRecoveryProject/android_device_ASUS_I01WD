@@ -23,14 +23,14 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/asus/I01WD/device.mk)
+$(call inherit-product, device/ASUS/I01WD/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := I01WD
 PRODUCT_NAME := omni_I01WD
-PRODUCT_BRAND := asus
+PRODUCT_BRAND := ASUS
 PRODUCT_MODEL := I01WD
-PRODUCT_MANUFACTURER := asus
+PRODUCT_MANUFACTURER := ASUS
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=WW_I01WD \
